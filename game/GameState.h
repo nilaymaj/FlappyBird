@@ -1,7 +1,7 @@
 #pragma once
 
-#include "State.h"
-#include "Game.h"
+#include "../engine/State.h"
+#include "../engine/Game.h"
 #include "Pipe.h"
 #include "Land.h"
 #include "Bird.h"

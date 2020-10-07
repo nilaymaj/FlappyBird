@@ -1,6 +1,6 @@
 #include "GameState.h"
 #include "GameOverState.h"
-#include "Collision.h"
+#include "../engine/Collision.h"
 #include "Config.h"
 #include <iostream>
 

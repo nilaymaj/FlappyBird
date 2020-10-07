@@ -1,7 +1,7 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
-#include "Game.h"
+#include "../engine/Game.h"
 
 namespace Engine {
     class HUD {

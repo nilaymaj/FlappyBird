@@ -1,16 +1,17 @@
 #pragma once
 
-#include "State.h"
-#include "Game.h"
+#include "../engine/State.h"
+#include "../engine/Game.h"
 
 namespace Engine {
-    class SplashState : public State {
+    class MainMenuState : public State {
     private:
         GameDataRef _data;
-        sf::Clock _clock;
         sf::Sprite _background;
+        sf::Sprite _title;
+        sf::Sprite _playButton;
     public:
-        SplashState(GameDataRef data);
+        MainMenuState(GameDataRef data);
         void init();
 
         void handleInput();

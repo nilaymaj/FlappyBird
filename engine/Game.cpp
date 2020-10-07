@@ -1,5 +1,5 @@
 #include "Game.h"
-#include "SplashState.h"
+#include "../game/SplashState.h"
 
 #include <iostream>
 #include <SFML/Graphics.hpp>

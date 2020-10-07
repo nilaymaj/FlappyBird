@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <vector>
-#include "Game.h"
+#include "../engine/Game.h"
 
 namespace Engine {
     class Bird {
