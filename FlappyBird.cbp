@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FlappyBird"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nilay/Code/FlappyBird"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nilay/Code/FlappyBird"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nilay/Code/FlappyBird"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FlappyBird">
+				<Option output="/home/nilay/Code/FlappyBird/FlappyBird" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nilay/Code/FlappyBird"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 FlappyBird"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FlappyBird/fast">
+				<Option output="/home/nilay/Code/FlappyBird/FlappyBird" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nilay/Code/FlappyBird"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 FlappyBird/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nilay/Code/FlappyBird/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nilay/Code/FlappyBird/AssetManager.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/AssetManager.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Bird.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Bird.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Collisions.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Collisions.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Config.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Flash.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Flash.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Game.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Game.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/GameOverState.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/GameOverState.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/GameState.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/GameState.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/HUD.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/HUD.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/InputManager.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/InputManager.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Land.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Land.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/MainMenuState.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/MainMenuState.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Pipe.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/Pipe.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/SplashState.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/SplashState.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/State.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/State.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/StateMachine.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/StateMachine.h">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/main.cpp">
+			<Option target="FlappyBird"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nilay/Code/FlappyBird/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
