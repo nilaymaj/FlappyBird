@@ -4,7 +4,7 @@ project(FlappyBird)
 set(CMAKE_CXX_STANDARD 17)
 set(EXECUTABLE_NAME "FlappyBird")
 
-add_executable(FlappyBird main.cpp State.cpp State.h StateMachine.cpp StateMachine.h AssetManager.cpp AssetManager.h InputManager.cpp InputManager.h Game.cpp Game.h Config.h SplashState.cpp SplashState.h MainMenuState.cpp MainMenuState.h GameState.cpp GameState.h GameOverState.cpp GameOverState.h Pipe.cpp Pipe.h Land.cpp Land.h Bird.cpp Bird.h Collisions.cpp Collisions.h Flash.cpp Flash.h HUD.cpp HUD.h)
+add_executable(FlappyBird main.cpp State.cpp State.h StateMachine.cpp StateMachine.h AssetManager.cpp AssetManager.h InputManager.cpp InputManager.h Game.cpp Game.h Config.h SplashState.cpp SplashState.h MainMenuState.cpp MainMenuState.h GameState.cpp GameState.h GameOverState.cpp GameOverState.h Pipe.cpp Pipe.h Land.cpp Land.h Bird.cpp Bird.h Flash.cpp Flash.h HUD.cpp HUD.h Collision.cpp Collision.h)
 file(COPY resources DESTINATION ${CMAKE_BINARY_DIR})
 
 # Detect and add SFML

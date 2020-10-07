@@ -1,6 +1,6 @@
 #include "GameState.h"
 #include "GameOverState.h"
-#include "Collisions.h"
+#include "Collision.h"
 #include "Config.h"
 #include <iostream>
 
@@ -98,7 +98,7 @@ namespace Engine {
         // Check for score lines being crossed
         auto& scoreLines = _pipe->getScoreLines();
         for (auto it = scoreLines.begin(); it < scoreLines.end(); ++it) {
-            if (Collisions::areColliding(_bird->getSprite(), *it)) {
+            if (Collision::boundingBoxTest(_bird->getSprite(), *it)) {
                 scoreLines.erase(it);
                 _pointSound.play();
                 ++_score;
@@ -109,7 +109,7 @@ namespace Engine {
         // Check collision between bird and ground
         auto& groundSprites = _land->getSprites();
         for (auto& sprite : groundSprites) {
-            if (Collisions::areScaledColliding(sprite, 1.0f, _bird->getSprite(), 0.8f)) {
+            if (Collision::boundingBoxTest(_bird->getSprite(), sprite)) {
                 birdCrashed();
                 return;
             }
@@ -118,7 +118,7 @@ namespace Engine {
         // Check collision between bird and pipes
         auto& pipeSprites = _pipe->getSprites();
         for (auto& sprite : pipeSprites) {
-            if (Collisions::areScaledColliding(sprite, 1.0f, _bird->getSprite(), 0.8f)) {
+            if (Collision::pixelPerfectTest(_bird->getSprite(), sprite)) {
                 birdCrashed();
                 return;
             }

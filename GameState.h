@@ -8,7 +8,6 @@
 #include "Flash.h"
 #include "HUD.h"
 #include "Config.h"
-#include "Collisions.h"
 
 namespace Engine {
     class GameState : public State {
