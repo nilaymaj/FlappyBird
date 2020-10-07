@@ -82,9 +82,16 @@ namespace Engine {
 
     unsigned int GameOverState::readHighScore() {
         unsigned int highScore = 0;
-        std::ifstream fileReader;
+        std::fstream fileReader;
         fileReader.open(HIGH_SCORE_FILEPATH);
+        if (!fileReader.is_open()) {
+            // File does not exist, so create it
+            writeHighScore(0);
+            fileReader.open(HIGH_SCORE_FILEPATH);
+        }
+
         while (!fileReader.eof()) fileReader >> highScore;
+        fileReader.close();
         return highScore;
     }
 
@@ -92,6 +99,7 @@ namespace Engine {
         std::ofstream fileWriter;
         fileWriter.open(HIGH_SCORE_FILEPATH);
         fileWriter << score;
+        fileWriter.close();
     }
 
     void GameOverState::pause() {};

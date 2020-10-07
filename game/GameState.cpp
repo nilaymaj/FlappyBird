@@ -74,7 +74,7 @@ namespace Engine {
 
         // Update game speed
         float playTime = _gameSpeedClock.getElapsedTime().asSeconds();
-        _gameSpeed = BASE_GAME_SPEED + playTime*3;
+        _gameSpeed = BASE_GAME_SPEED + playTime*5;
 
         // Crash timer - reuses pipe spawn clock
         if (_playState == PlayState::Crashed) {

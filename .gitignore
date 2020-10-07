@@ -8,5 +8,7 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+resources/highscore.txt
+FlappyBird
 *.cbp
 _deps
