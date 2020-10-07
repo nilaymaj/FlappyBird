@@ -4,7 +4,6 @@
 #define SCREEN_HEIGHT 1024
 
 #define SPLASH_SHOW_TIME 3.0
-#define SPLASH_BACKGROUND_FILEPATH "resources/res/SplashBackground.png"
 
 #define MAIN_MENU_BACKGROUND_FILEPATH "resources/res/sky.png"
 #define MAIN_MENU_TITLE_FILEPATH "resources/res/title.png"

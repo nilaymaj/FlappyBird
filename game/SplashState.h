@@ -7,8 +7,8 @@ namespace Engine {
     class SplashState : public State {
     private:
         GameDataRef _data;
-        sf::Clock _clock;
-        sf::Sprite _background;
+        sf::Text _splashText;
+        sf::Text _instructions;
     public:
         SplashState(GameDataRef data);
         void init();
