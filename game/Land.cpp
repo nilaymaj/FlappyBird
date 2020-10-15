@@ -19,8 +19,9 @@ namespace Engine {
         float movement = gameSpeed * dt;
         for (auto it = _landSprites.begin(); it < _landSprites.end(); ++it) {
             it->move(-movement, 0);
-            if (it->getPosition().x < -(it->getGlobalBounds().width))
-                it->setPosition(SCREEN_WIDTH-5, SCREEN_HEIGHT - (it->getGlobalBounds().height));
+            float blockRight = it->getPosition().x + it->getGlobalBounds().width;
+            if (blockRight < 0)
+                it->setPosition(SCREEN_WIDTH + blockRight, SCREEN_HEIGHT - (it->getGlobalBounds().height));
         }
     }
 
